@@ -1,0 +1,217 @@
+.contact,
+.contact * {
+  box-sizing: border-box;
+}
+.contact {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-7 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 118px;
+  position: absolute;
+  left: 80px;
+  top: 16px;
+}
+.frame-3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 68px;
+  position: relative;
+}
+.frame-8 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 501px;
+  position: absolute;
+  left: 458px;
+  top: 945px;
+}
+.harsith-karne-university-of-maryland-fall-2025 {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1171px;
+  position: absolute;
+  left: 74px;
+  top: 24px;
+}
+.harsith-karne {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.contact-us {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.reach-out-to-the-course-team-for-support-or-inquiries {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.professor-contact-paul-t-shapiro-pshapiro-umd-edu {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.ta-contact {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.abhi-gupta-agupta-09-umd-edu-samiha-meah-smeah-umd-edu-zam-mozumder-zam-umd-edu {
+  color: #000000;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.frame-12 {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1047px;
+  top: 10px;
+}
+.frame-6 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 94px;
+  position: relative;
+}
+.frame-2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.home {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-5 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.about {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-4 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+}
