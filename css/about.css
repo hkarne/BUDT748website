@@ -1,0 +1,102 @@
+/* About Page Specific Styles */
+
+body {
+  background: var(--light-color);
+}
+
+/* About Page Styles */
+.about-page-content {
+  min-height: 100vh;
+  padding: 8rem 2rem 4rem;
+  background: var(--light-color);
+  position: relative;
+}
+
+.frame-11 {
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: fadeInUp 1s ease-out;
+}
+
+.budt-748-industry-practicum {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.the-capstone-class-is-designed-as-an-industry-sponsored-practicum-project-it-has-two-main-objectives-first-the-course-provides-students-an-opportunity-to-work-on-a-real-world-project-where-they-will-work-with-a-sponsoring-firm-to-use-information-technology-to-solve-a-real-world-business-problem {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--gray-color);
+  margin-bottom: 3rem;
+  background: white;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.about-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.detail-card {
+  background: white;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.detail-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.detail-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.detail-card p {
+  color: var(--gray-color);
+  margin-bottom: 0;
+}
+
+/* About page footer positioning */
+.about-page-content .frame-8 {
+  position: relative;
+  bottom: auto;
+  left: auto;
+  transform: none;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.about-page-content .harsith-karne-university-of-maryland-fall-2025 {
+  color: var(--gray-color);
+}
+
+/* About page responsive adjustments */
+@media (max-width: 768px) {
+  .about-page-content {
+    padding: 6rem 1rem 2rem;
+  }
+  
+  .about-details {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .detail-card {
+    padding: 1.5rem;
+  }
+}

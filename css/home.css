@@ -1,0 +1,95 @@
+/* Home Page Specific Styles */
+
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Landing Page Styles */
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  overflow: hidden;
+}
+
+.landing-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
+  opacity: 0.5;
+  animation: float 20s infinite linear;
+}
+
+.landing-page > * {
+  position: relative;
+  z-index: 2;
+}
+
+.let-s-create-a-website-design {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  color: white;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  animation: slideInUp 1s ease-out;
+}
+
+.information-systems-graduate-student-at-umd {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 3rem;
+  animation: slideInUp 1s ease-out 0.2s both;
+}
+
+.frame-10 {
+  margin-top: 2rem;
+  animation: slideInUp 1s ease-out 0.4s both;
+}
+
+.get-started {
+  background: var(--accent-color);
+  color: var(--dark-color);
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: var(--transition);
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: var(--shadow);
+}
+
+.get-started:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+  background: #9aff2e;
+}
+
+/* Home page responsive adjustments */
+@media (max-width: 768px) {
+  .landing-page {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .let-s-create-a-website-design {
+    font-size: 2rem;
+  }
+  
+  .information-systems-graduate-student-at-umd {
+    font-size: 1rem;
+  }
+}

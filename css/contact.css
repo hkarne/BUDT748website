@@ -1,0 +1,83 @@
+/* Contact Page Specific Styles */
+
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Contact Page Styles */
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  overflow: hidden;
+}
+
+.landing-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
+  opacity: 0.5;
+  animation: float 20s infinite linear;
+}
+
+.landing-page > * {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-us-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  color: white;
+  margin-bottom: 1rem;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  animation: slideInUp 1s ease-out;
+}
+
+.contact-us-subtitle {
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 3rem;
+  animation: slideInUp 1s ease-out 0.2s both;
+}
+
+.contact-details {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  padding: 3rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  text-align: left;
+  animation: slideInUp 1s ease-out 0.4s both;
+}
+
+.contact-details p {
+  margin-bottom: 0.8rem;
+  color: var(--text-color);
+}
+
+.contact-details strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Contact page responsive adjustments */
+@media (max-width: 768px) {
+  .contact-details {
+    padding: 2rem;
+    margin: 0 1rem 2rem;
+  }
+}
